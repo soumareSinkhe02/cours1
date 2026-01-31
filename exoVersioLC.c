@@ -1,14 +1,16 @@
 #include <stdio.h>
 int main(){
+    //Question1 : Moyenne des entiers pairs
+    //Auteur : Synkhe Soumare
 
     int i, N, M, compteur, S;
     float moyenne;
 
     do{
-        printf("Veuillez entrer le nombre d'entiers : ");
+        printf("Veuillez entrer le nombre d'entiers a saisir : ");
         scanf("%d",&N);
 
-        if(!N > 0)
+        if(!(N > 0))
             puts("Erreur ! l'entier doit etre positif.");
     }while(!(N > 0));
     S = 0, compteur = 0;
