@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
+    //Question1 : Moyenne des entiers pairs
     //Question2 : Nombre des entiers impairs
     //Auteur : Synkhe Soumare
 
