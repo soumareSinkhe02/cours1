@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     //Question1 : Moyenne des entiers pairs
+    //Question2 : Nombre des entiers impairs
     //Auteur : Synkhe Soumare
 
     int i, N, M, compteur, S;
@@ -20,13 +21,11 @@ int main(){
             scanf("%d",&M);
         }while(!(M > 0));
 
-        if(M % 2 == 0){
+        if(M % 2 != 0){
             compteur++;
-            S += M;
         }
     }
-    moyenne = (float)S / compteur;
-    printf("La moyenne des entiers paires est : %.2f\n",moyenne);
+    printf("Le nombre des entiers impaires est : %.d\n",compteur);
 
     return 0;
 }
